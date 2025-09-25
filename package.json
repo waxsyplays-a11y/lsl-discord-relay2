@@ -1,0 +1,14 @@
+{
+  "name": "lsl-discord-relay",
+  "version": "1.0.0",
+  "description": "Relay logs from Second Life LSL to Discord via webhook",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2"
+  }
+}
